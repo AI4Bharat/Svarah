@@ -25,6 +25,16 @@ We evaluate 6 open source ASR models and 2 commercial ASR systems on *Svarah* an
 {"audio_filepath": <path to audio file 2>, "duration": <seconds>, "text": <transcript 2>}
 
 ```
+ - Running evaluation scripts
+
+For azure and google cloud evaluations, you will be required to add your key associated with the services offered by each. For others, you can run the following : 
+
+ ```
+ python eval_<hf_model>.py  --manifest <manifest path>
+ ```
+For processing audio filepaths, kindly change them as per your directory structure in the scripts.
+
+
   - Meta statistics of speakers
    
    The `meta_speaker_stats.csv` file consists of 11 columns which describes some meta statistics of speakers involved in *Svarah*: 
@@ -41,14 +51,6 @@ We evaluate 6 open source ASR models and 2 commercial ASR systems on *Svarah* an
 * `job_category` -- speakers's job category (Part Time, Full Time, Other)
 * `occupation_domain` -- speaker's domain of occupation (Education and Research, Healthcare [Medical & Pharma], Government, Technology and Services, Information and Media, Financial Services [Banking and Insurance], Transportation and Logistics, Entertainment, Social service, Manufacturing & Retail  )
     
-   - Running evaluation scripts
-
-For azure and google cloud evaluations, you will be required to add your key associated with the services offered by each. For others, you can run the following : 
-
- ```
- python eval_<hf_model>.py  --manifest <manifest path>
- ```
-For processing audio filepaths, kindly change them as per your directory structure in the scripts.
 
  - Svarah folder tree
 
