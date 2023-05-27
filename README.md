@@ -129,7 +129,13 @@ Table 2: Number of hours and Number of tokens in each accent
 If you benefit from this dataset, kindly cite as follows:
 
 ```
-
-
+@misc{javed2023svarah,
+      title={Svarah: Evaluating English ASR Systems on Indian Accents}, 
+      author={Tahir Javed and Sakshi Joshi and Vignesh Nagarajan and Sai Sundaresan and Janki Nawale and Abhigyan Raman and Kaushal Bhogale and Pratyush Kumar and Mitesh M. Khapra},
+      year={2023},
+      eprint={2305.15760},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
