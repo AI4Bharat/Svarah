@@ -12,7 +12,7 @@ We evaluate 6 open source ASR models and 2 commercial ASR systems on *Svarah* an
 
 |Datasets | Benchmark |
 | - | - |
-| Svarah | [link](<zip_e2e>) |
+| Svarah | [link](https://indic-asr-public.objectstore.e2enetworks.net/svarah.tar) |
 
 ## Tutorial
 
